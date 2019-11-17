@@ -56,6 +56,26 @@ a{text-decoration: none;color: inherit;}
 	background-color: #DBB783;
 	color: #FFF;
 }
+.left,.right{
+	position: absolute;
+	width: 55px;
+	height: 70px;
+	background-image: url("images/pic3.png");
+}
+.left{
+	left:5px;
+	top: 275px;
+	background-position: 0px -80px;
+}
+.right{
+	right:5px;
+	top: 275px;
+	background-position: 0px -153px;
+}
+.left:hover,.right:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
 </style>
 
 </head>
@@ -70,6 +90,10 @@ a{text-decoration: none;color: inherit;}
 </audio><br/>
 <video src="rsc/4.Ogg"controls="controls">
 </video><br/>
+
+<a href="#"><div class="left"></div></a>
+<a href="#"><div class="right"></div></a>
+
 
 <p class="begina a"><small><a href="#about">基本信息</a></small>
 <small><a href="#diary">关于我</a></small>
